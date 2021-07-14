@@ -1,0 +1,35 @@
+2021-07-14 23:34:02.906  INFO 28656 --- [restartedMain] com.dwc.blog.BlogApplication             : Starting BlogApplication on dwc-laptop with PID 28656 (E:\Codes\java\frameworks\IDEA\springboot\blog\target\classes started by dwc in E:\Codes\java\frameworks\IDEA\springboot\blog)
+2021-07-14 23:34:02.914 DEBUG 28656 --- [restartedMain] com.dwc.blog.BlogApplication             : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-14 23:34:02.914  INFO 28656 --- [restartedMain] com.dwc.blog.BlogApplication             : The following profiles are active: dev
+2021-07-14 23:34:02.976  INFO 28656 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\DEV\maven\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-07-14 23:34:02.977  INFO 28656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-14 23:34:02.977  INFO 28656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-14 23:34:03.729  INFO 28656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-14 23:34:03.809  INFO 28656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 5 JPA repository interfaces.
+2021-07-14 23:34:04.679  INFO 28656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-14 23:34:04.687  INFO 28656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-14 23:34:04.688  INFO 28656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-07-14 23:34:04.856  INFO 28656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-14 23:34:04.857  INFO 28656 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1878 ms
+2021-07-14 23:34:05.080  INFO 28656 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-14 23:34:05.154  INFO 28656 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2021-07-14 23:34:05.371  INFO 28656 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-07-14 23:34:05.546  INFO 28656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-14 23:34:05.547  WARN 28656 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-14 23:34:05.793  INFO 28656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-14 23:34:05.810  INFO 28656 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-07-14 23:34:06.683  INFO 28656 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-14 23:34:06.691  INFO 28656 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-14 23:34:06.748  INFO 28656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-14 23:34:07.467  WARN 28656 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-14 23:34:07.662  INFO 28656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-14 23:34:07.755  INFO 28656 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-14 23:34:08.514  INFO 28656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-14 23:34:08.516  INFO 28656 --- [restartedMain] com.dwc.blog.BlogApplication             : Started BlogApplication in 6.554 seconds (JVM running for 8.051)
+2021-07-14 23:39:26.121  INFO 28656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-14 23:39:26.121  INFO 28656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-14 23:39:26.131  INFO 28656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-07-14 23:39:32.752  INFO 28656 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin', ip='127.0.0.1', classAndMethod='com.dwc.blog.controller.admin.LoginController@loginPage', args=[]}
+2021-07-14 23:39:32.757  INFO 28656 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: admin/login
+2021-07-14 23:39:37.549  INFO 28656 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/login', ip='127.0.0.1', classAndMethod='com.dwc.blog.controller.admin.LoginController@login', args=[dwc, 123456, org.apache.catalina.session.StandardSessionFacade@1c7d74f9, {}]}
+2021-07-14 23:39:37.759  INFO 28656 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: admin/index

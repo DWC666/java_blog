@@ -1,0 +1,652 @@
+2020-07-09 15:59:59.568  INFO 6704 --- [restartedMain] com.dwc.blog.BlogApplication             : Starting BlogApplication on dwc-laptop with PID 6704 (E:\Codes\java\frameworks\IDEA\springboot\blog\target\classes started by dwc in E:\Codes\java\frameworks\IDEA\springboot\blog)
+2020-07-09 15:59:59.573 DEBUG 6704 --- [restartedMain] com.dwc.blog.BlogApplication             : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-07-09 15:59:59.574  INFO 6704 --- [restartedMain] com.dwc.blog.BlogApplication             : The following profiles are active: dev
+2020-07-09 15:59:59.622  INFO 6704 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\DEV\maven\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-09 15:59:59.623  INFO 6704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-09 15:59:59.623  INFO 6704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-09 16:00:00.440  INFO 6704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-09 16:00:00.554  INFO 6704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 5 JPA repository interfaces.
+2020-07-09 16:00:01.512  INFO 6704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 16:00:01.523  INFO 6704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 16:00:01.523  INFO 6704 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-09 16:00:01.741  INFO 6704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 16:00:01.741  INFO 6704 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2118 ms
+2020-07-09 16:00:01.962  INFO 6704 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 16:00:02.042  INFO 6704 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-09 16:00:02.168  INFO 6704 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 16:00:02.266  INFO 6704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 16:00:02.267  WARN 6704 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-09 16:00:02.406  INFO 6704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 16:00:02.428  INFO 6704 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 16:00:03.488  INFO 6704 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 16:00:03.496  INFO 6704 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 16:00:03.567  INFO 6704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 16:00:04.443  WARN 6704 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 16:00:04.667  INFO 6704 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 16:00:04.785  INFO 6704 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-09 16:00:05.398  INFO 6704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 16:00:05.401  INFO 6704 --- [restartedMain] com.dwc.blog.BlogApplication             : Started BlogApplication in 6.64 seconds (JVM running for 8.053)
+2020-07-09 16:00:46.068  INFO 6704 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 16:00:46.068  INFO 6704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 16:00:46.084  INFO 6704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-07-09 16:00:46.133  INFO 6704 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@loginPage', args=[]}
+2020-07-09 16:00:46.139  INFO 6704 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: admin/login
+2020-07-09 16:00:52.647  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/login', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@login', args=[dwc, 123456, org.apache.catalina.session.StandardSessionFacade@19137484, {}]}
+2020-07-09 16:00:52.718  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: admin/index
+2020-07-09 16:01:00.820  INFO 6704 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@7cd60b8, {blogQuery=com.dwc.blog.vo.BlogQuery@7cd60b8, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 16:01:00.943  INFO 6704 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 16:01:12.521  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/types/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.TypeController@types', args=[Page request [number: 0, size 5, sort: id: DESC], {}]}
+2020-07-09 16:01:12.602  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: /admin/types
+2020-07-09 16:07:42.056 ERROR 6704 --- [http-nio-8080-exec-1] c.d.b.h.ControllerExceptionHandler       : request URL: http://localhost:8080/types/list, Exception: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "list"
+2020-07-09 16:07:42.057  WARN 6704 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "list"]
+2020-07-09 16:08:55.883  INFO 6704 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 16:08:55.954  WARN 6704 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-09 16:08:55.986  WARN 6704 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-09 16:08:56.024  INFO 6704 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 16:08:56.624  INFO 6704 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 16:08:56.633  INFO 6704 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 16:09:16.241  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 16:09:16.475  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 16:09:17.234  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 16:09:17.235  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 16:09:17.248  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 16:09:17.348  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 16:58:44.506  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 16:58:44.548  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 16:58:45.125  INFO 6704 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 16:58:45.132  INFO 6704 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:08:55.988  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:08:56.016  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:08:57.155  INFO 6704 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:08:57.163  INFO 6704 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:08:58.997  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@loginPage', args=[]}
+2020-07-09 17:08:58.998  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: admin/login
+2020-07-09 17:09:01.807  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/login', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@login', args=[dwc, 123456, org.apache.catalina.session.StandardSessionFacade@60488a2b, {}]}
+2020-07-09 17:09:01.813  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: admin/index
+2020-07-09 17:10:46.667  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@1b8d2950, {blogQuery=com.dwc.blog.vo.BlogQuery@1b8d2950, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:10:46.683  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:11:00.696  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:11:00.749  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:11:01.845  INFO 6704 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:11:01.853  INFO 6704 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:11:30.564  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:11:30.614  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:11:31.484  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:11:31.490  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:11:33.603  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@5c84cca1, {blogQuery=com.dwc.blog.vo.BlogQuery@5c84cca1, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:11:33.618  INFO 6704 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:13:05.083  INFO 6704 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:13:05.090  INFO 6704 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:14:20.032  INFO 6704 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@bd1ca40, {blogQuery=com.dwc.blog.vo.BlogQuery@bd1ca40, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:14:20.086  INFO 6704 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:17:16.403  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@633c122b, {blogQuery=com.dwc.blog.vo.BlogQuery@633c122b, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:17:16.451  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:17:22.984  INFO 6704 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:17:23.033  INFO 6704 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:17:23.985  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:17:23.991  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:18:35.679  INFO 6704 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:18:35.729  INFO 6704 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:18:36.517  INFO 6704 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:18:36.524  INFO 6704 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:23:13.781  INFO 6704 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:23:13.832  INFO 6704 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:23:14.618  INFO 6704 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:23:14.624  INFO 6704 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:24:41.467  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:24:41.512  INFO 6704 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:24:42.155  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:24:42.161  INFO 6704 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:24:46.866  INFO 6704 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@311edc1c, {blogQuery=com.dwc.blog.vo.BlogQuery@311edc1c, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:24:46.913  INFO 6704 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:27:19.284  INFO 18376 --- [restartedMain] com.dwc.blog.BlogApplication             : Starting BlogApplication on dwc-laptop with PID 18376 (E:\Codes\java\frameworks\IDEA\springboot\blog\target\classes started by dwc in E:\Codes\java\frameworks\IDEA\springboot\blog)
+2020-07-09 17:27:19.287 DEBUG 18376 --- [restartedMain] com.dwc.blog.BlogApplication             : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-07-09 17:27:19.288  INFO 18376 --- [restartedMain] com.dwc.blog.BlogApplication             : The following profiles are active: dev
+2020-07-09 17:27:19.340  INFO 18376 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\DEV\maven\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/DEV/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-09 17:27:19.341  INFO 18376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-09 17:27:19.341  INFO 18376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-09 17:27:19.948  INFO 18376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-09 17:27:20.029  INFO 18376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 5 JPA repository interfaces.
+2020-07-09 17:27:20.865  INFO 18376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 17:27:20.875  INFO 18376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 17:27:20.875  INFO 18376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-09 17:27:21.064  INFO 18376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 17:27:21.064  INFO 18376 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1723 ms
+2020-07-09 17:27:21.273  INFO 18376 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 17:27:21.381  INFO 18376 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-09 17:27:21.594  INFO 18376 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 17:27:21.722  INFO 18376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 17:27:21.723  WARN 18376 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-09 17:27:21.867  INFO 18376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 17:27:21.893  INFO 18376 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 17:27:22.918  INFO 18376 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 17:27:22.925  INFO 18376 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 17:27:22.990  INFO 18376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 17:27:23.838  WARN 18376 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 17:27:24.053  INFO 18376 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 17:27:24.153  INFO 18376 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-09 17:27:24.695  INFO 18376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 17:27:24.698  INFO 18376 --- [restartedMain] com.dwc.blog.BlogApplication             : Started BlogApplication in 6.062 seconds (JVM running for 7.267)
+2020-07-09 17:27:58.525  INFO 18376 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 17:27:58.526  INFO 18376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 17:27:58.543  INFO 18376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-07-09 17:27:58.590  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@loginPage', args=[]}
+2020-07-09 17:27:58.596  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: admin/login
+2020-07-09 17:28:02.231  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/login', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@login', args=[dwc, 123456, org.apache.catalina.session.StandardSessionFacade@71bac81e, {}]}
+2020-07-09 17:28:02.298  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: admin/index
+2020-07-09 17:28:21.947 ERROR 18376 --- [http-nio-8080-exec-7] c.d.b.h.ControllerExceptionHandler       : request URL: http://localhost:8080/blog/admin, Exception: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "admin"
+2020-07-09 17:28:21.951  WARN 18376 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "admin"]
+2020-07-09 17:29:55.082  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:29:55.175  WARN 18376 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-09 17:29:55.186  WARN 18376 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-09 17:29:55.193  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:29:55.785  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:29:55.794  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:30:07.565  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/login', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@login', args=[dwc, 123456, org.apache.catalina.session.StandardSessionFacade@71bac81e, {}]}
+2020-07-09 17:30:07.572  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: admin/index
+2020-07-09 17:30:09.134  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:30:09.194  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:30:09.803  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:30:09.810  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:32:32.175  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:32:32.204  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:32:33.091  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:32:33.098  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:32:45.136  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@2c0a6855, {blogQuery=com.dwc.blog.vo.BlogQuery@2c0a6855, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:32:45.238  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:33:14.057  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:33:14.080  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:33:14.579  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:33:14.586  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:34:18.765  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@37df1075, {blogQuery=com.dwc.blog.vo.BlogQuery@37df1075, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:34:18.787  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:34:34.481  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/types/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.TypeController@types', args=[Page request [number: 0, size 5, sort: id: DESC], {}]}
+2020-07-09 17:34:34.558  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: /admin/types
+2020-07-09 17:34:36.626  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/tags/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.TagController@listTags', args=[Page request [number: 0, size 5, sort: id: DESC], {}]}
+2020-07-09 17:34:36.662  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: /admin/tags
+2020-07-09 17:34:40.891  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@67399592, {blogQuery=com.dwc.blog.vo.BlogQuery@67399592, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:34:40.948  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:37:11.125  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@2c00ac9e, {blogQuery=com.dwc.blog.vo.BlogQuery@2c00ac9e, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:37:11.175  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:37:18.348  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/input', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@input', args=[{}]}
+2020-07-09 17:37:18.394  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: admin/blogs-input
+2020-07-09 17:41:53.601  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/input', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@input', args=[{}]}
+2020-07-09 17:41:53.641  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: admin/blogs-input
+2020-07-09 17:48:20.352  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/input', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@input', args=[{}]}
+2020-07-09 17:48:20.395  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: admin/blogs-input
+2020-07-09 17:48:23.315  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 17:48:23.370  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 17:48:23.983  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 17:48:23.990  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 17:50:21.389  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@3ee96cc2, {blogQuery=com.dwc.blog.vo.BlogQuery@3ee96cc2, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:50:21.436  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:54:18.833  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@a36ff9, {blogQuery=com.dwc.blog.vo.BlogQuery@a36ff9, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:54:18.886  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 17:54:18.938 ERROR 18376 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "admin/blogs": An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: An error happened during template parsing (template: "class path resource [templates/admin/_fragments.html]" - line 25, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/_fragments.html]" - line 25, col 13)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:302)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.attoparser.ParseException: (Line = 25, Column = 13) Incomplete structure: "<img class="ui avatar image" src="https://unsplash.it/100/100?image=1005" th:src="@{${session.loginUser.avatar}}>
+            <span th:text="${session.loginUser.nickname}">丁文超</span>
+          </div>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+    <i class="sidebar icon"></i>
+  </a>
+</nav>
+
+
+
+<!--底部footer-->
+<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
+  <div class="ui center aligned container">
+    <div class="ui inverted divided stackable grid">
+      <div class="three wide column">
+        <div class="ui inverted link list">
+          <div class="item">
+            <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}"  class="ui rounded image" alt="" style="width: 110px">
+          </div>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced " >最新博客</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+          <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+          <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item m-text-thin">Email：lirenmi@163.com</a>
+          <a href="#" class="item m-text-thin">QQ：865729312</a>
+        </div>
+      </div>
+      <div class="seven wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced ">Blog</h4>
+        <p class="m-text-thin m-text-spaced m-opacity-mini">这是我的个人博客、会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
+      </div>
+    </div>
+    <div class="ui inverted section divider"></div>
+    <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2016 - 2017 Lirenmi Designed by Lirenmi</p>
+  </div>
+
+</footer>
+
+<th:block th:fragment="script">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+  <script src="../../static/lib/editormd/editormd.min.js" th:src="@{/lib/editormd/editormd.min.js}"></script>
+</th:block>
+
+</body>
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 69 common frames omitted
+
+2020-07-09 17:54:18.946 ERROR 18376 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")] with root cause
+
+org.attoparser.ParseException: (Line = 25, Column = 13) Incomplete structure: "<img class="ui avatar image" src="https://unsplash.it/100/100?image=1005" th:src="@{${session.loginUser.avatar}}>
+            <span th:text="${session.loginUser.nickname}">丁文超</span>
+          </div>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+    <i class="sidebar icon"></i>
+  </a>
+</nav>
+
+
+
+<!--底部footer-->
+<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
+  <div class="ui center aligned container">
+    <div class="ui inverted divided stackable grid">
+      <div class="three wide column">
+        <div class="ui inverted link list">
+          <div class="item">
+            <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}"  class="ui rounded image" alt="" style="width: 110px">
+          </div>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced " >最新博客</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+          <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+          <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item m-text-thin">Email：lirenmi@163.com</a>
+          <a href="#" class="item m-text-thin">QQ：865729312</a>
+        </div>
+      </div>
+      <div class="seven wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced ">Blog</h4>
+        <p class="m-text-thin m-text-spaced m-opacity-mini">这是我的个人博客、会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
+      </div>
+    </div>
+    <div class="ui inverted section divider"></div>
+    <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2016 - 2017 Lirenmi Designed by Lirenmi</p>
+  </div>
+
+</footer>
+
+<th:block th:fragment="script">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+  <script src="../../static/lib/editormd/editormd.min.js" th:src="@{/lib/editormd/editormd.min.js}"></script>
+</th:block>
+
+</body>
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:302)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-09 17:59:48.252  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@294dd1f4, {blogQuery=com.dwc.blog.vo.BlogQuery@294dd1f4, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 17:59:48.313  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 18:02:04.068  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@4ae3ba92, {blogQuery=com.dwc.blog.vo.BlogQuery@4ae3ba92, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 18:02:04.144  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: admin/blogs :: blogList
+2020-07-09 18:02:25.708  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 18:02:25.761  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 18:02:26.327  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 18:02:26.334  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 18:02:35.960  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/32', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[32, {}]}
+2020-07-09 18:02:36.115  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 18:02:36.690  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 18:02:36.693  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/32', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[32, {}]}
+2020-07-09 18:02:36.699  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 18:02:36.728  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 18:07:34.901  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 18:07:34.954  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 18:07:35.508  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 18:07:35.514  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 18:08:03.812  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/aboutme', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@about', args=[]}
+2020-07-09 18:08:03.814  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: about
+2020-07-09 18:08:04.353  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 18:08:04.360  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 18:44:19.862  WARN 18376 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m27s801ms240µs200ns).
+2020-07-09 21:42:28.489  WARN 18376 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h20m42s36ms722µs).
+2020-07-09 21:42:42.291  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.TypeShowController@types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2020-07-09 21:42:42.311  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: types
+2020-07-09 21:42:45.290  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 21:42:45.296  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 21:56:58.632  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 21:56:58.769  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 21:56:59.535  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 21:56:59.545  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 21:56:59.570  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 21:56:59.630  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 21:57:25.036  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@loginPage', args=[]}
+2020-07-09 21:57:25.036  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: admin/login
+2020-07-09 21:57:26.380  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/login', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.LoginController@login', args=[dwc, 123456, org.apache.catalina.session.StandardSessionFacade@7b8c7141, {}]}
+2020-07-09 21:57:26.383  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: admin/index
+2020-07-09 21:57:32.132  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/types/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.TypeController@types', args=[Page request [number: 0, size 5, sort: id: DESC], {}]}
+2020-07-09 21:57:32.140  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: /admin/types
+2020-07-09 21:57:33.280  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@4b335383, {blogQuery=com.dwc.blog.vo.BlogQuery@4b335383, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 21:57:33.297  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 22:10:31.842  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/types/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.TypeController@types', args=[Page request [number: 0, size 5, sort: id: DESC], {}]}
+2020-07-09 22:10:31.850  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: /admin/types
+2020-07-09 22:10:43.888  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/types/input', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.TypeController@toInputPage', args=[{}]}
+2020-07-09 22:10:43.888  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: /admin/types-input
+2020-07-09 22:10:53.125  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/tags/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.TagController@listTags', args=[Page request [number: 0, size 5, sort: id: DESC], {}]}
+2020-07-09 22:10:53.132  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: /admin/tags
+2020-07-09 22:10:58.637  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@blogs', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@779f6375, {blogQuery=com.dwc.blog.vo.BlogQuery@779f6375, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 22:10:58.650  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: admin/blogs
+2020-07-09 22:11:08.649  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@5175879e, {blogQuery=com.dwc.blog.vo.BlogQuery@5175879e, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 22:11:08.658  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: admin/blogs :: blogList
+2020-07-09 22:11:11.071  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@5933d4e9, {blogQuery=com.dwc.blog.vo.BlogQuery@5933d4e9, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 22:11:11.081  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: admin/blogs :: blogList
+2020-07-09 22:11:14.761  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@7379becd, {blogQuery=com.dwc.blog.vo.BlogQuery@7379becd, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 22:11:14.768  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: admin/blogs :: blogList
+2020-07-09 22:11:17.651  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@3eaa83ea, {blogQuery=com.dwc.blog.vo.BlogQuery@3eaa83ea, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 22:11:17.658  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: admin/blogs :: blogList
+2020-07-09 22:11:18.465  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@cc7e305, {blogQuery=com.dwc.blog.vo.BlogQuery@cc7e305, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 22:11:18.479  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: admin/blogs :: blogList
+2020-07-09 22:11:24.071  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/list/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], com.dwc.blog.vo.BlogQuery@4c5db50f, {blogQuery=com.dwc.blog.vo.BlogQuery@4c5db50f, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-07-09 22:11:24.080  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: admin/blogs :: blogList
+2020-07-09 22:31:22.810  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/admin/blogs/input', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.admin.BlogController@input', args=[{}]}
+2020-07-09 22:31:22.851  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: admin/blogs-input
+2020-07-09 22:31:31.357  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 22:31:31.374  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 22:31:32.027  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 22:31:32.036  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 22:37:07.133  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], , {}]}
+2020-07-09 22:37:07.149  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: search
+2020-07-09 22:39:25.693  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 1111, {}]}
+2020-07-09 22:39:25.702  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: search
+2020-07-09 23:02:04.820  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/32', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[32, {}]}
+2020-07-09 23:02:04.854  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 23:02:05.562  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:02:05.573  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/32', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[32, {}]}
+2020-07-09 23:02:05.577  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:02:05.583  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:02:09.144  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.TypeShowController@types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2020-07-09 23:02:09.157  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: types
+2020-07-09 23:02:09.824  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:02:09.833  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:02:10.494  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-07-09 23:02:10.509  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: index
+2020-07-09 23:02:11.185  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:02:11.195  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:02:18.688  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 23:02:18.765  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 23:02:19.569  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:02:19.572  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:02:19.578  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:02:19.621  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:35:29.890  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comment', args=[Comment{id=null, nickname='丁文超', email='test@qq.com', content='digui', avatar='null', createTime=null, blog=Blog{id=20, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareable=false, commentable=false, published=false, recommend=false, createTime=null, updateTime=null}, adminComment=false, childComments=[], parentComment=Comment{id=23, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, adminComment=false, childComments=[], parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@7def3b0e]}
+2020-07-09 23:35:30.031  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: redirect:/comments/20
+2020-07-09 23:35:30.062  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:35:30.096  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:35:50.704  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 23:35:50.783  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 23:35:51.616  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:35:51.622  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:35:51.626  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:35:51.672  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:38:00.295  INFO 18376 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 23:38:00.298  INFO 18376 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 23:38:00.313  INFO 18376 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 23:38:00.325  INFO 18376 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 23:38:01.299  INFO 18376 --- [restartedMain] com.dwc.blog.BlogApplication             : Starting BlogApplication on dwc-laptop with PID 18376 (E:\Codes\java\frameworks\IDEA\springboot\blog\target\classes started by dwc in E:\Codes\java\frameworks\IDEA\springboot\blog)
+2020-07-09 23:38:01.299 DEBUG 18376 --- [restartedMain] com.dwc.blog.BlogApplication             : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-07-09 23:38:01.299  INFO 18376 --- [restartedMain] com.dwc.blog.BlogApplication             : The following profiles are active: dev
+2020-07-09 23:38:01.577  INFO 18376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-09 23:38:01.627  INFO 18376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 5 JPA repository interfaces.
+2020-07-09 23:38:01.898  INFO 18376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 23:38:01.899  INFO 18376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 23:38:01.900  INFO 18376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-09 23:38:01.941  INFO 18376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 23:38:01.941  INFO 18376 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 637 ms
+2020-07-09 23:38:02.024  INFO 18376 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 23:38:02.029  INFO 18376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-07-09 23:38:02.029  WARN 18376 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-09 23:38:02.038  INFO 18376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-07-09 23:38:02.038  INFO 18376 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 23:38:02.296  INFO 18376 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 23:38:02.297  INFO 18376 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 23:38:02.340  INFO 18376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 23:38:02.885  WARN 18376 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 23:38:03.049  INFO 18376 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 23:38:03.120  INFO 18376 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-09 23:38:03.399  INFO 18376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 23:38:03.399  INFO 18376 --- [restartedMain] com.dwc.blog.BlogApplication             : Started BlogApplication in 2.162 seconds (JVM running for 22249.48)
+2020-07-09 23:38:03.401  INFO 18376 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-09 23:38:39.481  INFO 18376 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 23:38:39.485  INFO 18376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 23:38:39.520  INFO 18376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2020-07-09 23:38:39.532  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 23:38:39.683  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 23:38:40.559  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:38:40.561  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:38:40.569  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:38:40.622  INFO 18376 --- [http-nio-8080-exec-4] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:42:55.595  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 23:42:55.729  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 23:42:56.755  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:42:56.758  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:42:56.766  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:42:56.785  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:43:48.956  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comment', args=[Comment{id=null, nickname='a', email='12456@qq.com', content='test', avatar='null', createTime=null, blog=Blog{id=20, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareable=false, commentable=false, published=false, recommend=false, createTime=null, updateTime=null}, adminComment=false, childComments=[], parentComment=Comment{id=36, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, adminComment=false, childComments=[], parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@191864dc]}
+2020-07-09 23:43:49.063  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: redirect:/comments/20
+2020-07-09 23:43:49.084  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:43:49.106  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:44:08.084  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comment', args=[Comment{id=null, nickname='b', email='12456@qq.com', content='test', avatar='null', createTime=null, blog=Blog{id=20, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareable=false, commentable=false, published=false, recommend=false, createTime=null, updateTime=null}, adminComment=false, childComments=[], parentComment=Comment{id=38, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, adminComment=false, childComments=[], parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@191864dc]}
+2020-07-09 23:44:08.178  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: redirect:/comments/20
+2020-07-09 23:44:08.190  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:44:08.232  INFO 18376 --- [http-nio-8080-exec-3] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:44:19.313  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comment', args=[Comment{id=null, nickname='c', email='12456@qq.com', content='test', avatar='null', createTime=null, blog=Blog{id=20, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareable=false, commentable=false, published=false, recommend=false, createTime=null, updateTime=null}, adminComment=false, childComments=[], parentComment=Comment{id=39, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, adminComment=false, childComments=[], parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@191864dc]}
+2020-07-09 23:44:19.490  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: redirect:/comments/20
+2020-07-09 23:44:19.502  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:44:19.550  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:44:24.564  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 23:44:24.607  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 23:44:25.624  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:44:25.626  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:44:25.630  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:44:25.653  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:44:43.794  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comment', args=[Comment{id=null, nickname='d', email='12456@qq.com', content='test', avatar='null', createTime=null, blog=Blog{id=20, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareable=false, commentable=false, published=false, recommend=false, createTime=null, updateTime=null}, adminComment=false, childComments=[], parentComment=Comment{id=40, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, adminComment=false, childComments=[], parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@191864dc]}
+2020-07-09 23:44:43.956  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: redirect:/comments/20
+2020-07-09 23:44:43.971  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:44:44.024  INFO 18376 --- [http-nio-8080-exec-8] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:44:46.531  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 23:44:46.603  INFO 18376 --- [http-nio-8080-exec-6] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 23:44:47.199  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:44:47.201  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:44:47.205  INFO 18376 --- [http-nio-8080-exec-5] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:44:47.221  INFO 18376 --- [http-nio-8080-exec-7] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:45:50.036  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comment', args=[Comment{id=null, nickname='d', email='12456@qq.com', content='test', avatar='null', createTime=null, blog=Blog{id=20, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareable=false, commentable=false, published=false, recommend=false, createTime=null, updateTime=null}, adminComment=false, childComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, adminComment=false, childComments=[], parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@191864dc]}
+2020-07-09 23:45:50.174  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: redirect:/comments/20
+2020-07-09 23:45:50.187  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:45:50.249  INFO 18376 --- [http-nio-8080-exec-1] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
+2020-07-09 23:47:41.729  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@blog', args=[20, {}]}
+2020-07-09 23:47:41.858  INFO 18376 --- [http-nio-8080-exec-9] com.dwc.blog.aspect.LogAspect            : result: blog
+2020-07-09 23:47:43.047  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/footer/newBlogs', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.IndexController@newBlog', args=[{}]}
+2020-07-09 23:47:43.049  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : Request : {url='http://localhost:8080/comments/20', ip='0:0:0:0:0:0:0:1', classAndMethod='com.dwc.blog.controller.CommentController@comments', args=[20, {}]}
+2020-07-09 23:47:43.055  INFO 18376 --- [http-nio-8080-exec-10] com.dwc.blog.aspect.LogAspect            : result: _fragments :: newBlogList
+2020-07-09 23:47:43.081  INFO 18376 --- [http-nio-8080-exec-2] com.dwc.blog.aspect.LogAspect            : result: blog :: commentList
